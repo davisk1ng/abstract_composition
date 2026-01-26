@@ -1,0 +1,61 @@
+*{
+    margin:0px;
+    font-size:42px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+/*class Names*/
+
+
+
+
+.main-box1{
+
+    display: inline-block;
+    position:relative;
+    background:yellow;
+    width:350px;
+    height:300px;
+    vertical-align: top;
+    padding: 20px;
+}
+
+.main-box2{
+
+    display: inline-block;
+    position:relative;
+    background:red;
+    width:400px;
+    height:500px;
+    vertical-align: top;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.main-box3{
+
+    display: inline-block;
+    position:relative;
+    background:green;
+    width:400px;
+    height:900px;
+    vertical-align: top;
+    padding: 20px;
+}
+
+.circle{
+    position: absolute;
+    right:10px;
+    bottom:10px;
+    background:blue;
+    width:100px;
+    height:100px;
+    border-radius: 100%;
+    align-content:center;
+    text-align: center;
+}
+
+.circle > p{
+    font-size:20px;
+    color:white;
+    
+}
